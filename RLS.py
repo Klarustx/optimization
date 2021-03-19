@@ -1,4 +1,4 @@
- data 第一列为标记值
+#data 第一列为标记值
 # data 后几列为特征向量
 # initialTheta 为需要求得的theta
 #!/sur/bin/python3
