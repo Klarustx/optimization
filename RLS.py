@@ -29,7 +29,6 @@ def RLS_Fun(data, initialTheta, featureNum):
         P = np.dot((np.eye(featureNum) - np.dot(K, featureMatrix.T)), P)
     return Theta
  
- 
 if __name__ == '__main__':
     warnings.filterwarnings(action='ignore')
     dataInitial = sklearn.datasets.load_boston()
@@ -56,4 +55,3 @@ if __name__ == '__main__':
     plt.ylabel('房屋价格', fontsize=15)
     plt.grid()
     plt.show()
-
